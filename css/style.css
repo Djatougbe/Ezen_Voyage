@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-image {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))), url("../images/Voyageurs.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../images/Voyageurs.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image .hero-button {
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hero-image .hero-button button {
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  outline: 0;
+  font-size: 1.1em;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: dodgerblue;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.hero-image .hero-button button:hover {
+  background-color: white;
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
+}
+
+.hero-image .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-image .hero-text h1 {
+  font-size: 7em;
+}
+
+.hero-image .hero-text h1 span {
+  color: crimson;
+}
+
+.hero-image .hero-text p {
+  font-size: 2em;
+  margin-top: -75px;
+}
+
+.hero-image .hero-text button {
+  margin-top: 50px;
+  border: none;
+  border-radius: 15px;
+  outline: 0;
+  font-size: 1.1em;
+  display: inline-block;
+  padding: 20px 30px;
+  color: white;
+  background-color: crimson;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.hero-image .hero-text button:hover {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.hero-image .hero-text button:focus {
+  background-color: white;
+  color: crimson;
+  border: 1px solid crimson;
+}
+
+.miniBlock1 {
+  margin-left: 20px;
+}
+
+.miniBlock1 h1 {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+.miniBlock1 .imgDownload img {
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.miniBlock1 .imgDownload img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.block1 {
+  margin-top: 200px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  padding: 20px 30px;
+  -webkit-box-shadow: 15px 15px 30px #dedede, -15px -15px 30px #ffffff;
+          box-shadow: 15px 15px 30px #dedede, -15px -15px 30px #ffffff;
+}
+
+.block1 h1 {
+  text-align: center;
+  color: crimson;
+}
+
+.block1 p {
+  font-size: 1.2em;
+  text-align: center;
+  color: #63615d;
+}
+
+.block1 img {
+  width: 10em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block1 .p2 {
+  text-align: left;
+}
+
+.block2 {
+  margin-top: 200px;
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block2 .block2Top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* .block2 .block2Top div {
+  width: 300px;
+  -webkit-box-shadow: 9px 9px 16px #dedede, -9px -9px 16px #FFFFFF;
+          box-shadow: 9px 9px 16px #dedede, -9px -9px 16px #FFFFFF;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.block2 .block2Top div:hover {
+  -webkit-box-shadow: inset 3px 3px 7px #dedede, inset -3px -3px 7px #FFFFFF;
+          box-shadow: inset 3px 3px 7px #dedede, inset -3px -3px 7px #FFFFFF;
+}
+
+.block2 .block2Bottom {
+  margin-top: 50px;
+}
+
+.block2 .block2Bottom .miniBlock1 {
+  text-align: center;
+}
+
+.typeform-widget {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media all and (max-width: 1050px) {
+  .hero-image .hero-button button {
+    font-size: 1em;
+  }
+  .hero-image .hero-text h1 {
+    font-size: 5em;
+  }
+  .hero-image .hero-text p {
+    font-size: 1.5em;
+    margin-top: -50px;
+  }
+  .hero-image .hero-text button {
+    font-size: 1em;
+    padding: 15px 30px;
+  }
+  .miniBlock1 {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .block1 {
+    margin-top: 100px;
+    width: 90%;
+  }
+  .block2 {
+    margin-top: 100px;
+    width: 90%;
+  }
+  .block2 .block2Top {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .block2 .block2Top div {
+    width: 250px;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .block2 .block2Top div img {
+    width: 74px;
+    height: 74px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .hero-image {
+    height: 100%;
+  }
+  .hero-image .hero-button button {
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+    background-color: transparent;
+  }
+  .hero-image .hero-button button:hover {
+    background-color: dodgerblue;
+    color: white;
+    border: 2px solid transparent;
+  }
+  .hero-image .hero-text h1 {
+    font-size: 3.2em;
+  }
+  .hero-image .hero-text p {
+    font-size: 1.3em;
+    margin-top: -25px;
+  }
+  .hero-image .hero-text button {
+    width: 300px;
+  }
+  .miniBlock1 h1 {
+    font-size: 1.4em;
+  }
+  .block1 {
+    margin-top: 50px;
+    padding: 20px 0px;
+    -webkit-box-shadow: 0px 0px 0px #dedede, -0px -0px 0px #ffffff;
+            box-shadow: 0px 0px 0px #dedede, -0px -0px 0px #ffffff;
+  }
+  .block1 h1 {
+    text-align: center;
+    color: crimson;
+    font-size: 1.5em;
+  }
+  .block1 p {
+    font-size: 1.1em;
+  }
+  .block1 img {
+    width: 7em;
+  }
+  .block1 .p2 {
+    text-align: center;
+  }
+  .block1 span {
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=style.css.map */
