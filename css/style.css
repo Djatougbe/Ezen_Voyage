@@ -10,44 +10,13 @@ html {
   scroll-behavior: smooth;
 }
 
-.hero-image {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.4))), url("../images/Voyageurs.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../images/Voyageurs.jpg");
-  height: 80%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
+
 
 .hero-image .hero-button {
   text-align: right;
   position: absolute;
   top: 0;
   right: 0;
-}
-
-.hero-image .hero-button button {
-  margin-top: 10px;
-  margin-right: 10px;
-  border: 2px solid transparent;
-  border-radius: 10px;
-  outline: 0;
-  font-size: 1.1em;
-  display: inline-block;
-  padding: 10px 20px;
-  color: white;
-  background-color: dodgerblue;
-  text-align: center;
-  cursor: pointer;
-  -webkit-transition: 200ms;
-  transition: 200ms;
-}
-
-.hero-image .hero-button button:hover {
-  background-color: white;
-  color: dodgerblue;
-  border: 2px solid dodgerblue;
 }
 
 .hero-image .hero-text {
@@ -73,32 +42,7 @@ html {
   margin-top: -75px;
 }
 
-.hero-image .hero-text button {
-  margin-top: 50px;
-  border: none;
-  border-radius: 15px;
-  outline: 0;
-  font-size: 1.1em;
-  display: inline-block;
-  padding: 20px 30px;
-  color: white;
-  background-color: crimson;
-  text-align: center;
-  cursor: pointer;
-  -webkit-transition: 200ms;
-  transition: 200ms;
-}
 
-.hero-image .hero-text button:hover {
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
-}
-
-.hero-image .hero-text button:focus {
-  background-color: white;
-  color: crimson;
-  border: 1px solid crimson;
-}
 
 .miniBlock1 {
   margin-left: 20px;
@@ -127,8 +71,10 @@ html {
   margin-right: auto;
   border-radius: 20px;
   padding: 20px 30px;
-  -webkit-box-shadow: 15px 15px 30px #dedede, -15px -15px 30px #ffffff;
-          box-shadow: 15px 15px 30px #dedede, -15px -15px 30px #ffffff;
+  -webkit-box-shadow: 15px 15px 30px #dedede,
+ -15px -15px 30px #ffffff;
+          box-shadow: 15px 15px 30px #dedede,
+ -15px -15px 30px #ffffff;
 }
 
 .block1 h1 {
@@ -288,8 +234,10 @@ html {
   .block1 {
     margin-top: 50px;
     padding: 20px 0px;
-    -webkit-box-shadow: 0px 0px 0px #dedede, -0px -0px 0px #ffffff;
-            box-shadow: 0px 0px 0px #dedede, -0px -0px 0px #ffffff;
+    -webkit-box-shadow: 0px 0px 0px #dedede,
+ -0px -0px 0px #ffffff;
+            box-shadow: 0px 0px 0px #dedede,
+ -0px -0px 0px #ffffff;
   }
   .block1 h1 {
     text-align: center;

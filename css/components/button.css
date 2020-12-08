@@ -1,0 +1,50 @@
+.btnContact {
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  outline: 0;
+  font-size: 1.1em;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: dodgerblue;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.btnContact:hover {
+  background-color: white;
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
+}
+
+.btnStart {
+  margin-top: 50px;
+  border: none;
+  border-radius: 15px;
+  outline: 0;
+  font-size: 1.1em;
+  display: inline-block;
+  padding: 20px 30px;
+  color: white;
+  background-color: crimson;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.btnStart:hover {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.btnStart:focus {
+  background-color: white;
+  color: crimson;
+  border: 1px solid crimson;
+}
+/*# sourceMappingURL=button.css.map */
